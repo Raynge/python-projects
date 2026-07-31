@@ -19,12 +19,16 @@ while redo:
     while True:
         try:
             print()
-            first_number = int(input("Enter your first number: "))
-            second_number = int(input("Enter your second number: "))
-            print()
-            print("1. GCD", "2. LCM", "3. Both", sep="\n")
+            print("1. GCD", "2. LCM", "3. Both",
+                  "4. Fraction simplifier",   sep="\n")
             print()
             operation = int(input("Choice: "))
+            print()
+
+            if operation != 4:
+                first_number = int(input("Enter your first number: "))
+                second_number = int(input("Enter your second number: "))
+
             break
         except ValueError:
             print("Please enter a valid number.")
@@ -46,8 +50,19 @@ while redo:
         print(f"HCF / GCD : {gcd_numbers}")
         print(f"   LCM    : {lcm_numbers}")
 
+    elif operation == 4:
+        numerator = int(input('Numerator: '))
+        denominator = int(input('Denominator: '))
+        if denominator == 0:
+            print("Denominator cannot be zero.")
+        else:
+            gcd_numbers = gcd(numerator, denominator)
+            print()
+            print(
+                f'{numerator}/{denominator} : {numerator//gcd_numbers}/{denominator//gcd_numbers}')
+
     else:
-        print("Please choose a valid operation (1,2,3).")
+        print("Please choose a valid operation (1,2,3, 4).")
         continue
 
     print()
