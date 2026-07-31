@@ -1,3 +1,7 @@
+# =================================
+# FUNCTIONS
+# =================================
+
 def gcd(first_number, second_number):
     while second_number != 0:
         remainder = first_number % second_number
@@ -11,6 +15,10 @@ def lcm(first_number, second_number):
     lcm_numbers = (first_number * second_number) // gcd_numbers
     return lcm_numbers
 
+
+# =================================
+# MAIN PROGRAM
+# =================================
 
 redo = True
 
@@ -32,6 +40,8 @@ while redo:
             break
         except ValueError:
             print("Please enter a valid number.")
+
+    # =================================
 
     if operation == 1:
         gcd_numbers = gcd(first_number, second_number)
@@ -64,6 +74,8 @@ while redo:
     else:
         print("Please choose a valid operation (1,2,3, 4).")
         continue
+
+# =================================
 
     print()
     retry = input("Do you wanna go again? (y/n): ").strip().lower()
