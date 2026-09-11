@@ -7,17 +7,18 @@ A collection of small Python projects I've made while learning and practicing Py
 | **Project**               | **Description**                                                                   |
 | ------------------------- | --------------------------------------------------------------------------------- |
 | **Contact Book**          | A simple contact book for storing and managing contacts. 📇                       |
-| **Equation Solver**        | Solves linear and quadratic equations. 📐                                         |
+| **Equation Solver**       | Solves linear and quadratic equations. 📐                                         |
 | **Factorizer**            | Factors quadratic equations. 🔢                                                   |
-| **GCD-LCM Calculator**    | Calculates GCD and LCM, with a fraction simplifier included. 🧮                   |
+| **GCD-LCM Calculator**     | Calculates GCD and LCM, with a fraction simplifier included. 🧮                   |
 | **Gambling Machine**      | A simple gambling-machine project. 🎰                                             |
-| **Interest Calc**         | Calculates interest. 💰                                                           |
+| **Interest Calc**         | Calculates interest. 💰                                                            |
 | **Number Guesser**        | A number guessing game. 🎯                                                        |
 | **Other (with help)**     | Miscellaneous Python projects made with some assistance. 🛠️                      |
 | **Prime Factorizer**      | Finds the prime factors of a number. Some bugs may still be present. 🔍           |
-| **Prime Checker**          | Checks whether a number is prime. ✅                                               |
+| **Prime Checker**         | Checks whether a number is prime. ✅                                               |
 | **Quiz**                  | A simple quiz program. ❓                                                          |
 | **Scientific Calculator** | A calculator with scientific functions, including trigonometry and factorials. 🔬 |
+| **Student Score Manager** | A basic student score manager using a Python dictionary/hash map. 🎓              |
 | **To-Do List**            | A task-based to-do list program. Some bugs may still be present. 📋               |
 
 ## 📚 About
@@ -32,7 +33,7 @@ Some projects may contain bugs or unfinished features — that's part of the lea
 
 ---
 
-**Language:** Python 🐍
-**Status:** 🚧 Ongoing
-**Made with:** 💻 Python & curiosity
+**Language:** Python 🐍  
+**Status:** 🚧 Ongoing  
+**Made with:** 💻 Python & curiosity  
 *AI Made
